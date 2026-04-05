@@ -12,3 +12,5 @@ To Update
 git add .
 git commit -m "what you changed"
 git push
+
+git pull origin main-- if git push shows error

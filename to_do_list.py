@@ -31,10 +31,12 @@ while True:
         print('Viewing Task')
 
     elif user_choice == '3':
-        task_num = int(input('Enter task number to mark as done: '))
-        tasks[task_num -1]['done'] = True
-        print('Marked Task As Done')
-
+        try:
+            task_num = int(input('Enter task number to mark as done: '))
+            tasks[task_num -1]['done'] = True
+            print('Marked Task As Done')
+        except IndexError:
+            print('Not enough tasks')
     elif user_choice == '4':
         task_num = int(input('Enter task number to delete: '))
         tasks.pop(task_num -1)
