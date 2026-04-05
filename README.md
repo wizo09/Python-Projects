@@ -16,8 +16,12 @@ A calculator that performs basic arithmetic operations.
 - Input validation
 - Calculation history
 
-## What I Learned
-- Loops and conditionals
-- try/except error handling
-- Lists and for loops
-- f-strings
+### 📝 To-Do List App
+A task manager that saves your tasks between sessions.
+- Add, view, mark as done and delete tasks
+- Data persists using file handling
+
+### 📊 Student Grade Tracker
+A grade tracking system for managing student performance.
+- Add students with grades and letter grades
+- Search students and view c
