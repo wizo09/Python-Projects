@@ -25,3 +25,10 @@ A task manager that saves your tasks between sessions.
 A grade tracking system for managing student performance.
 - Add students with grades and letter grades
 - Search students and view c
+
+### 💰 Personal Expense Tracker
+A tracker for logging and analyzing daily expenses.
+- Add expenses with name, amount and category
+- View all expenses with formatted output
+- Summary showing total spent, most expensive, cheapest and top category
+- Data persists using JSON
