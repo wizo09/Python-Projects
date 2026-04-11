@@ -44,4 +44,5 @@ while True:
 
     ask_user = input('Calculate again? (Yes/No):').lower()
     if ask_user == 'no':
+        print('Goodbye!')
         break
